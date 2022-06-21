@@ -1,0 +1,56 @@
+* {
+	margin:0px;
+	padding:0px;
+}#main{
+	width:935px;
+	margin:0px auto;
+}
+
+#header{
+	margin:0px auto;
+	text-align:center;
+}
+
+#navigation{
+background:transparent url("C:/Users/skyho/OneDrive/Pictures/GIF_Reinecord") repeat-x top left;	
+text-align:center;
+font-size:14px;
+font-weight:bold;
+border:1px solid #7a7a7a;
+margin:0px 6px -20px;
+z-index:100;
+position:relative;
+}
+
+#navigation ul{
+	margin:0px auto;
+	width:auto;
+}
+
+#navigation ul li {
+display:inline;	
+text-transform:uppercase;
+border-right:1px solid #808856;
+line-height:33px;
+padding:9px 12px 9px 9px;
+}
+
+.first{
+	border-left:1px solid #808856;
+}
+
+#navigation ul li a{
+	color:#ffffff;
+	text-decoration:none;
+/*	background:#000;*/
+
+}
+
+#navigation ul li a:hover{
+/*		background:#fff;*/
+color:#eaeaea;
+}
+
+.clear{
+clear:both;	
+}
